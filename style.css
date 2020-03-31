@@ -32,6 +32,7 @@
 
 .section-row-1{
     margin: 50px;
+    padding: 25px;
 }
 
 .section-row-1 h1{
@@ -47,24 +48,66 @@
 
 .section-row-2{
     margin: 50px;
-    background: lightgray;
+    padding: 25px;
+}
+
+.section-2-background{
+    background: #ededed;
 }
 
 
 .section-row-2 h1{
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     font-size: 2.5em;
 }
 .section-row-2 p{
     
-    text-align: center;
-    font-size: 1.5em;
 }
+
+.section-row-3{
+    margin: 50px;
+    padding: 25px;
+}
+.section-row-3 h1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.section-row-3 p{
+
+    
+}
+
+.section-row-4{
+    margin: 50px;
+    padding: 25px;
+    padding-bottom: -25px;
+}
+
+.section-4-background{
+    background-color: #ededed;
+}
+.section-row-4 h1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
 
 .footer{
     text-align: center;
     color: darkgray;
     background-color: black;
     padding: 25px;
+}
+
+input[type=text], input[type=email]{
+    margin: 25px;
+    padding: 25px;
+}
+
+.custom-btn{
+    margin-left: 25px;
 }
