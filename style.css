@@ -7,6 +7,7 @@
     --main-bg-color: #0087E1;
     --main-text-color: white;
     --sections-background-color: #ededed;
+    --footer-color: darkgray;
 
 
 }
@@ -91,7 +92,7 @@
 }
 
 .section-4-background{
-    background-color: var(--sections-background-color);
+    
 }
 .section-row-4 h1{
     text-align: left;
@@ -102,7 +103,7 @@
 
 .footer{
     text-align: center;
-    color: darkgray;
+    color: var(--footer-color);
     background-color: black;
     padding: 25px;
 }
@@ -118,4 +119,28 @@ input[type=text], input[type=email]{
 
 .custom-img{
     width: 75%;
+}
+
+.section-video{
+    margin: 50px;
+    padding: 25px;
+    padding-bottom: -25px;
+}
+.section-video h1{
+
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.section-video-background{
+    background: var(--sections-background-color);
+}
+
+video{
+    width: 75%;
+    margin: 25px;
+}
+
+.section-video{
+    align-items: center;
 }
